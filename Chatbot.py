@@ -24,7 +24,7 @@ def topic_service(text):
 
     body = str.encode(json.dumps(data))
 
-    url = 'http://172.165.150.123:80/api/v1/service/gpu-rn50/score'
+    url = 'http://4.158.59.231:80/api/v1/service/gpu-rn50/score'
 
 
     headers = {'Content-Type':'application/json'}
